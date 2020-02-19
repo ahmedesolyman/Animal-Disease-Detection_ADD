@@ -28,12 +28,12 @@ args = vars(ap.parse_args())
 ### https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/
 
 
-API_KEY = "1e7444cf56d54629a8fbe6fb8a573562"
-MAX_RESULTS = 250
+API_KEY = "278d7c4634d24c95a8c56cfcd173506c"
+MAX_RESULTS = 100
 GROUP_SIZE = 50
 
 # set the endpoint API URL
-URL = "https://api.cognitive.microsoft.com/bing/v7.0/images/search"
+URL = "https://api.cognitive.microsoft.com/bing/v5.0/images/search"
 
 # when attemping to download images from the web both the Python
 # programming language and the requests library have a number of
